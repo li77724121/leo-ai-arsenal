@@ -74,3 +74,28 @@
 
 ---
 *Made with ❤️ for LEO AI COMPANY · 开源协作，共同进化*
+
+---
+
+## ✅ 已同步 fork 副本（2026-08-21）
+
+以下项目已 **fork 到本账号**，同行者可直接在副本上提 PR 优化：
+
+1. [deepseek-harness](https://github.com/li77724121/deepseek-harness)（★174k MIT）
+2. [langchain](https://github.com/li77724121/langchain)（★144k MIT）
+3. [dify](https://github.com/li77724121/dify)（★153k）
+4. [langflow](https://github.com/li77724121/langflow)（★153k MIT）
+5. [crewAI](https://github.com/li77724121/crewAI)（★57k MIT）
+6. [pi](https://github.com/li77724121/pi)（★94k MIT）
+7. [OpenHands](https://github.com/li77724121/OpenHands)（★84k MIT）
+8. [goose](https://github.com/li77724121/goose)（★53k Apache-2.0）
+9. [CowAgent](https://github.com/li77724121/CowAgent)（★46k MIT）
+10. [gemini-cli](https://github.com/li77724121/gemini-cli)（★106k Apache-2.0）
+11. [free-claude-code](https://github.com/li77724121/free-claude-code)（★46k MIT）
+12. [LibreChat](https://github.com/li77724121/LibreChat)（★42k MIT）
+13. [lobehub](https://github.com/li77724121/lobehub)（★81k）
+14. [unsloth](https://github.com/li77724121/unsloth)（★74k Apache-2.0）
+15. [ragflow](https://github.com/li77724121/ragflow)（★88k Apache-2.0）
+16. [Agent-Reach](https://github.com/li77724121/Agent-Reach)（★73k MIT）
+17. [ponytail](https://github.com/li77724121/ponytail)（★106k MIT）
+18. [ai-agents-for-beginners](https://github.com/li77724121/ai-agents-for-beginners)（★72k MIT）
