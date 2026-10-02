@@ -163,14 +163,17 @@ fetch('pay.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(cfg=>{
   if(cfg.price&&p) p.innerHTML='<b>定价 '+cfg.price+'</b>'+(cfg.price_note?('（'+cfg.price_note+'）'):'');
   if(cfg.buy_label&&b) b.textContent=cfg.buy_label;
   if(cfg.qr_image&&w&&q){
-    q.src=cfg.qr_image; w.style.display='block';
-    const parts=[];
-    if(cfg.pay_title) parts.push('<b>'+cfg.pay_title+'</b>');
-    if(cfg.delivery_note) parts.push(cfg.delivery_note);
-    if(cfg.contact_email) parts.push('交付邮箱：<a style="color:var(--ac)" href="mailto:'+cfg.contact_email+'">'+cfg.contact_email+'</a>');
-    if(h) h.innerHTML=parts.join('<br>');
-    if(b){ b.removeAttribute('href'); b.style.cursor='default';
-           b.onclick=()=>w.scrollIntoView({behavior:'smooth',block:'center'}); }
+    const probe=new Image();
+    probe.onload=()=>{ q.src=cfg.qr_image; w.style.display='block';
+      const parts=[];
+      if(cfg.pay_title) parts.push('<b>'+cfg.pay_title+'</b>');
+      if(cfg.delivery_note) parts.push(cfg.delivery_note);
+      if(cfg.contact_email) parts.push('交付邮箱：<a style="color:var(--ac)" href="mailto:'+cfg.contact_email+'">'+cfg.contact_email+'</a>');
+      if(h) h.innerHTML=parts.join('<br>');
+      if(b){ b.removeAttribute('href'); b.style.cursor='default';
+             b.onclick=()=>w.scrollIntoView({behavior:'smooth',block:'center'}); } };
+    probe.onerror=()=>{ if(b&&cfg.contact_email){ b.href='mailto:'+cfg.contact_email; b.textContent='邮件联系获取授权包'; } };
+    probe.src=cfg.qr_image;
   } else if(cfg.buy_url&&b){ b.href=cfg.buy_url; }
 }).catch(()=>{});
 </script>
