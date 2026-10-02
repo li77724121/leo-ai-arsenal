@@ -199,3 +199,28 @@
 ### 📦 本次新增的核验数据（供后续维护）
 
 完整机读数据：`triage-2026-10-03.json`（92 条，含 star/fork/license/size/pushed）
+
+---
+
+## 🌍 新增：开放许可免费资源策展集（104 条，含许可审计）
+
+**[`open-resources/`](open-resources/) —— 逐条标注「能否原样转卖」**
+
+很多人会问：把网上免费的视频、书、素材收集起来打包卖可行吗？
+**答案是：取决于许可，而不取决于它是否免费。**
+
+| 许可 | 免费看 | 原样转卖 | 用于付费产品 |
+|---|:--:|:--:|:--:|
+| CC0 / 公有领域 | ✅ | ✅ **可以** | ✅ **可以** |
+| CC-BY / MIT / Apache / OFL | ✅ | ✅ 需署名 | ✅ 需署名 |
+| CC-BY-SA / GPL / ODbL | ✅ | ✅ 衍生须同许可 | ✅ 会传染 |
+| CC-BY-NC（MIT OCW、可汗学院…） | ✅ | ❌ **禁止商业** | ❌ **禁止商业** |
+| Unsplash / Pexels / Pixabay | ✅ | ❌ **禁止原样转卖** | ⚠️ 仅可作素材 |
+| 保留所有权利 / 平台 ToS | ✅ | ❌ **侵权** | ❌ **侵权** |
+
+**本库共 103 条：✅ 可原样转卖 62 条 ｜ ❌ 明确禁止 19 条**
+覆盖：公共领域书籍与古籍、开放教科书、免费课程、开放数据、免费素材（图/音/字/图标）、AI 开放权重、开源软件。
+
+- 📖 [`open-resources/README.md`](open-resources/README.md) —— 分类总表
+- ⚖️ [`open-resources/LICENSES.md`](open-resources/LICENSES.md) —— 许可速查与常见误区
+- 🗂️ [`open-resources/resources.json`](open-resources/resources.json) —— 机器可读版
