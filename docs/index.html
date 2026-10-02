@@ -149,4 +149,17 @@ q.oninput=render; c.onchange=render;
 t.onclick=()=>{onlyOk=!onlyOk;t.classList.toggle('on',onlyOk);t.textContent=onlyOk?'只看可转卖':'显示全部';render();};
 render();
 </script>
+
+<script>
+fetch('pay.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(cfg=>{
+  if(!cfg) return;
+  if(cfg.price){const p=document.getElementById('price'); if(p) p.innerHTML='<b>定价 '+cfg.price+'</b>'+(cfg.price_note?('（'+cfg.price_note+'）'):'');}
+  const b=document.getElementById('buy');
+  if(b&&cfg.buy_url){b.href=cfg.buy_url;}
+  if(cfg.buy_url&&cfg.buy_url.startsWith('#')){b.removeAttribute('href');b.style.cursor='default';}
+  if(cfg.buy_label&&b){b.textContent=cfg.buy_label;}
+  if(cfg.qr_image){const w=document.getElementById('qrwrap'),q=document.getElementById('qr');
+    if(w&&q){q.src=cfg.qr_image;w.style.display='block';}}
+}).catch(()=>{});
+</script>
 </body></html>

@@ -1,0 +1,8 @@
+{
+ "price": "¥49",
+ "price_note": "一次买断，含后续更新",
+ "buy_url": "mailto:li77724121@outlook.com?subject=%E8%8E%B7%E5%8F%96%E5%8F%AF%E5%95%86%E7%94%A8%E8%B5%84%E6%BA%90%E6%8E%88%E6%9D%83%E5%8C%85",
+ "buy_label": "立即获取授权包",
+ "qr_image": "",
+ "_说明": "改收款方式只需编辑本文件：buy_url 填收款链接，qr_image 填收款码图片路径；改完提交即生效，无需改任何代码"
+}
