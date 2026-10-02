@@ -1,0 +1,6 @@
+# exFAT / macOS 元数据工件
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+.fseventsd
