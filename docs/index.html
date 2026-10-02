@@ -99,8 +99,12 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--bd);color:var
     <li><b>机器可读 JSON</b>，可直接接入你自己的工具链</li>
   </ul>
   <p id="price"><b>定价 ¥49</b>（一次买断，含后续更新）</p>
-  <a class="btn" id="buy" href="mailto:li77724121@outlook.com?subject=%E8%8E%B7%E5%8F%96%E5%8F%AF%E5%95%86%E7%94%A8%E8%B5%84%E6%BA%90%E6%8E%88%E6%9D%83%E5%8C%85">立即获取授权包</a>
+  <a class="btn" id="buy" href="#">查看支付宝收款码</a>
   <a class="btn sec" href="commercial-pack.json" download>先下载免费预览</a>
+  <div id="qrwrap" style="display:none;margin-top:22px;text-align:center">
+    <img id="qr" alt="支付宝收款码" style="max-width:250px;border-radius:14px;border:1px solid var(--bd);background:#fff;padding:10px">
+    <div id="qrhint" style="color:var(--dim);font-size:13.5px;margin-top:10px;line-height:1.7"></div>
+  </div>
 </section>
 
 <section class="faq">
@@ -150,16 +154,24 @@ t.onclick=()=>{onlyOk=!onlyOk;t.classList.toggle('on',onlyOk);t.textContent=only
 render();
 </script>
 
+
 <script>
 fetch('pay.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(cfg=>{
   if(!cfg) return;
-  if(cfg.price){const p=document.getElementById('price'); if(p) p.innerHTML='<b>定价 '+cfg.price+'</b>'+(cfg.price_note?('（'+cfg.price_note+'）'):'');}
-  const b=document.getElementById('buy');
-  if(b&&cfg.buy_url){b.href=cfg.buy_url;}
-  if(cfg.buy_url&&cfg.buy_url.startsWith('#')){b.removeAttribute('href');b.style.cursor='default';}
-  if(cfg.buy_label&&b){b.textContent=cfg.buy_label;}
-  if(cfg.qr_image){const w=document.getElementById('qrwrap'),q=document.getElementById('qr');
-    if(w&&q){q.src=cfg.qr_image;w.style.display='block';}}
+  const b=document.getElementById('buy'), p=document.getElementById('price');
+  const w=document.getElementById('qrwrap'), q=document.getElementById('qr'), h=document.getElementById('qrhint');
+  if(cfg.price&&p) p.innerHTML='<b>定价 '+cfg.price+'</b>'+(cfg.price_note?('（'+cfg.price_note+'）'):'');
+  if(cfg.buy_label&&b) b.textContent=cfg.buy_label;
+  if(cfg.qr_image&&w&&q){
+    q.src=cfg.qr_image; w.style.display='block';
+    const parts=[];
+    if(cfg.pay_title) parts.push('<b>'+cfg.pay_title+'</b>');
+    if(cfg.delivery_note) parts.push(cfg.delivery_note);
+    if(cfg.contact_email) parts.push('交付邮箱：<a style="color:var(--ac)" href="mailto:'+cfg.contact_email+'">'+cfg.contact_email+'</a>');
+    if(h) h.innerHTML=parts.join('<br>');
+    if(b){ b.removeAttribute('href'); b.style.cursor='default';
+           b.onclick=()=>w.scrollIntoView({behavior:'smooth',block:'center'}); }
+  } else if(cfg.buy_url&&b){ b.href=cfg.buy_url; }
 }).catch(()=>{});
 </script>
 </body></html>
