@@ -99,3 +99,103 @@
 16. [Agent-Reach](https://github.com/li77724121/Agent-Reach)（★73k MIT）
 17. [ponytail](https://github.com/li77724121/ponytail)（★106k MIT）
 18. [ai-agents-for-beginners](https://github.com/li77724121/ai-agents-for-beginners)（★72k MIT）
+
+---
+
+## 🆕 2026-10-03 核验补充（92 个链接逐条实测）
+
+> 本节数据全部**实测拉取自 GitHub API**，非转述。
+> 核验字段：star 数、License、最近推送。**发现原表部分 star 数已过时**（例：ponytail 原记 ★106k，实测 **151,722**；Agent-Reach 原记 ★73k，实测 **88,485**）。
+
+**核验结论**：92 个链接中 —— 已装/已评 7 个 ｜ 与你栈相关且活跃 53 个 ｜ 无关或超大型 18 个 ｜ 高风险/敏感 14 个 ｜ **虚假项目 1 个（已剔除）**。
+**其中大量功能重复**（约 8 个免费模型路由、5 个记忆系统、4 个 Hermes 前端），故按功能归并后仅保留每组代表，避免重复建设。
+
+### 🧠 记忆系统（跨会话持久上下文）
+
+| 项目 | Stars | License | 活跃度 | 用途 / 核验结论 |
+|------|-------|---------|--------|----------------|
+| [gbrain](https://github.com/garrytan/gbrain) | ★30,491 | MIT | 活跃 | 生产级 Agent 大脑：带来源溯源的记忆 + 综合层 + 缺口分析（**已评估：优质，待内存余量**） |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | ★95,194 | Apache-2.0 | 活跃 | 捕获 Agent 全程操作并压缩注入后续会话 |
+| [mempalace](https://github.com/MemPalace/mempalace) | ★59,386 | MIT | 活跃 | 基准最优开源 AI 记忆系统 |
+| [cognee](https://github.com/topoteretes/cognee) | ★31,310 | Apache-2.0 | 活跃 | 开源 AI 记忆平台，小模型即可免费 |
+| [MemOS](https://github.com/MemTensor/MemOS) | ★11,677 | Apache-2.0 | 活跃 | 自演化记忆 OS，据称省 35% token |
+
+### 🔌 Hermes / Agent 生态增强
+
+| 项目 | Stars | License | 活跃度 | 用途 / 核验结论 |
+|------|-------|---------|--------|----------------|
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | ★18,732 | MIT | 活跃 | Hermes 网页与手机端 |
+| [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | ★6,679 | MIT | 活跃 | Hermes 原生 Web 工作区（聊天/终端/记忆/技能） |
+| [oh-my-hermes](https://github.com/rlaope/oh-my-hermes) | ★3,068 | MIT | 活跃 | Hermes 一体化插件包 |
+| [cc-switch](https://github.com/farion1231/cc-switch) | ★139,553 | MIT | 活跃 | Claude Code/Codex/OpenCode/Hermes 跨平台一体化助手 |
+| [codegraph](https://github.com/colbymchenry/codegraph) | ★72,942 | MIT | 活跃 | 预索引代码知识图谱，支持 Hermes，**100% 本地**，省 token 省调用 |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | ★63,380 | MIT | 活跃 | 跨 Reddit/X/YouTube/HN/Polymarket 调研并综合成有据摘要 |
+| [hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension) | ★1,593 | MIT | 活跃 | Hermes 浏览器侧边面板，打通网页上下文 |
+| [hermex](https://github.com/uzairansaruzi/hermex) | ★1,436 | MIT | 活跃 | Hermes 的 iPhone 原生客户端 |
+| [clawket](https://github.com/p697/clawket) | ★345 | AGPL-3.0 | 活跃 | OpenClaw/Hermes 移动客户端 |
+| [conduit](https://github.com/cogwheel0/conduit) | ★2,233 | GPL-3.0 | 活跃 | Open WebUI/Ollama/Hermes 的 iOS+Android 原生客户端 |
+| [hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem) | ★1,299 | 无 | 活跃 | Hermes Atlas：240+ 生态工具目录（含实时数据） |
+| [agent-teams-ai](https://github.com/ruslanmv/agent-teams-ai 替代 → 777genius/agent-teams-ai) | ? | | 多 Agent 团队看板（**已评估：与自建重叠**） |
+| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | ★9,122 | MIT | 活跃 | 多 Agent 团队框架，5 行代码部署 |
+| [ruflo](https://github.com/ruvnet/ruflo) | ★73,731 | MIT | 活跃 | 多 Agent 集群编排 + 联邦机制 |
+| [firstmate](https://github.com/kunchenguid/firstmate) | ★7,447 | MIT | 活跃 | 单 Agent 对话、团队交付 |
+| [no-mistakes](https://github.com/kunchenguid/no-mistakes) | ★8,723 | MIT | 活跃 | 本地 Git 代理，push 前拦截 |
+| [munder-difflin](https://github.com/HarnessMD/munder-difflin) | ★8,314 | MIT | 活跃 | 用现有订阅在本地跑类 Claude Code/Codex 代理 |
+| [agentcookie](https://github.com/mvanhorn/agentcookie) | ★844 | MIT | 11天前 | 跨 Mac 同步浏览器会话，经 Tailscale 加密，Agent 自动通过鉴权 |
+| [penguin-harness](https://github.com/Prism-Shadow/penguin-harness) | ★2,437 | Apache-2.0 | 活跃 | 本地优先多 Agent 应用开发平台 |
+
+### 💰 免费模型 / 推理路由（省 token）
+
+| 项目 | Stars | License | 活跃度 | 用途 / 核验结论 |
+|------|-------|---------|--------|----------------|
+| [OmniRoute](https://github.com/diegosouzapw/OmniRoute) | ★72,370 | MIT | 活跃 | 免费 MIT AI 网关：359 家供应商 / 1200+ 模型，配额感知自动回退 |
+| [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | ★53,895 | MIT | 活跃 | 把多家 CLI 封装成 OpenAI 兼容 API |
+| [9router](https://github.com/decolua/9router) | ★30,204 | MIT | 活跃 | 40+ 服务商接免费 Claude/GPT/Gemini，自动回退 |
+| [freellmapi](https://github.com/tashfeenahmed/freellmapi) | ★30,176 | MIT | 活跃 | 34 家免费供应商 / 635 个免费端点，统一 /v1 |
+| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | ★56,393 | NOASSERTION | 活跃 | 多框架多模型免费入口（已接入 FCC） |
+| [FreeToken](https://github.com/FlashML-org/FreeToken) | ★14,112 | Apache-2.0 | 活跃 | 桌面级模型服务 |
+| [clawmetry](https://github.com/vivekchand/clawmetry) | ★423 | MIT | 活跃 | 30 个 Agent 运行时的零配置可观测性与治理（含 token 成本） |
+| [tokscale](https://github.com/junhoyeo/tokscale) | ★5,605 | MIT | 活跃 | 终端追踪多个 Agent 的 token 用量与成本 |
+| [rtk-hermes](https://github.com/ogallotti/rtk-hermes) | ★284 | MIT | 151天前 | Hermes RTK 插件：重写 shell 命令省 60-90% token |
+| [token-saver](https://github.com/Hiutaky/token-saver) | ★4 | MIT | 27天前 | 对比本地免费模型 vs OpenRouter 花费 |
+
+### 🎨 设计与内容
+
+| 项目 | Stars | License | 活跃度 | 用途 / 核验结论 |
+|------|-------|---------|--------|----------------|
+| [impeccable](https://github.com/pbakaus/impeccable) | ★74,279 | Apache-2.0 | 活跃 | 让 AI 设计能力更强的设计语言 |
+| [grapesjs](https://github.com/GrapesJS/grapesjs) | ★26,286 | NOASSERTION | 活跃 | 免费开源无代码网站构建框架 |
+| [cli](https://github.com/MiniMax-AI/cli) | ★2,180 | 无 | 活跃 | MiniMax 文本/图像/视频/语音/音乐生成 CLI |
+| [minimax-code](https://github.com/MiniMax-AI/minimax-code) | ★1,952 | MIT | 活跃 | MiniMax 驱动的终端编码 Agent |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | ★38,268 | Apache-2.0 | 活跃 | 无需分词器的多语言 TTS，支持声音克隆 |
+| [petdex](https://github.com/crafter-station/petdex) | ★4,186 | MIT | 活跃 | 各 Agent 运行时的动画宠物图库（趣味） |
+
+### 📚 学习 / 资源
+
+| 项目 | Stars | License | 活跃度 | 用途 / 核验结论 |
+|------|-------|---------|--------|----------------|
+| [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) | ★5,436 | 无 | 107天前 | Hermes 自我进化：用 DSPy+GEPA 优化技能与提示 |
+| [hermes-agent-orange-book](https://github.com/alchaincyf/hermes-agent-orange-book) | ★4,965 | NOASSERTION | 40天前 | Hermes Agent 从入门到精通·橙皮书 |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | ★140,556 | Apache-2.0 | 活跃 | 100+ AI Agent / Skills / RAG 应用，可克隆可商用 |
+| [awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | ★25,704 | NOASSERTION | 20天前 | 280+ n8n 自动化模板 |
+| [NemoClaw](https://github.com/NVIDIA/NemoClaw) | ★22,638 | Apache-2.0 | 活跃 | 在 NVIDIA OpenShell 中安全运行 Hermes 等 Agent |
+
+### ⛔ 已核实剔除（不采）
+
+| 项目 | 核验结论 |
+|------|---------|
+| [zero-cost-ai-agent](https://github.com/TGKDre/zero-cost-ai-agent) | **已核实为虚假项目**：仓库仅 3 个文件共 5KB，README 声称的 config/脚本/skills 全部不存在；其指向的 freellmapi.com 实为 GoDaddy 待售域名。**剔除** |
+| [awesome-reverse-engineering](https://github.com/alphaSeclab/awesome-reverse-engineering) | 逆向工程资源（**已评估：5 年未更新 + 含远控/后门/免杀类，与你红线冲突，不采**） |
+| [gpt4free](https://github.com/xtekky/gpt4free) | 绕过官方接口取用闭源模型（**违反平台条款，不采**） |
+| [freqtrade](https://github.com/freqtrade/freqtrade) | 开源加密货币交易机器人（**已评估：项目优质，但与『监控≠交易』立场相反，不采**） |
+| [passivbot](https://github.com/enarjord/passivbot) | 多交易所交易机器人 |
+| [alpha-arena-okx](https://github.com/oficcejo/alpha-arena-okx) | OKX 自动炒币 |
+| [agent-skills](https://github.com/okx/agent-skills) | OKX 官方交易技能 |
+| [Quant-Strategy](https://github.com/JizhiXiang/Quant-Strategy) | 量化策略集合 |
+| [Shadowrocket-First](https://github.com/LOWERTOP/Shadowrocket-First) | 代理配置 |
+| [Apktool](https://github.com/iBotPeaches/Apktool) | APK 逆向 |
+| [Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | 渗透测试资源 |
+
+### 📦 本次新增的核验数据（供后续维护）
+
+完整机读数据：`triage-2026-10-03.json`（92 条，含 star/fork/license/size/pushed）

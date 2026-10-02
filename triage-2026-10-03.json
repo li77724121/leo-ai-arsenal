@@ -1,0 +1,1106 @@
+[
+  [
+    "NousResearch/hermes-agent",
+    {
+      "d": "The agent that grows with you",
+      "f": 53731,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T22:52:24Z",
+      "s": 250756,
+      "sz": 1125396
+    }
+  ],
+  [
+    "DietrichGebert/ponytail",
+    {
+      "d": "Makes your AI agent think like the laziest senior dev in the room. The best code is the co",
+      "f": 8138,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-10-02T16:22:48Z",
+      "s": 151722,
+      "sz": 2529
+    }
+  ],
+  [
+    "777genius/agent-teams-ai",
+    {
+      "d": "You're the boss, agents are your team. They handle tasks on their own, message each other,",
+      "f": 369,
+      "l": "AGPL-3.0",
+      "lang": "TypeScript",
+      "p": "2026-10-02T12:56:34Z",
+      "s": 2207,
+      "sz": 349540
+    }
+  ],
+  [
+    "kunchenguid/firstmate",
+    {
+      "d": "Talk to one agent. Ship with a crew.",
+      "f": 2389,
+      "l": "MIT",
+      "lang": "Shell",
+      "p": "2026-10-02T22:36:05Z",
+      "s": 7447,
+      "sz": 40341
+    }
+  ],
+  [
+    "kunchenguid/no-mistakes",
+    {
+      "d": "git push no-mistakes",
+      "f": 936,
+      "l": "MIT",
+      "lang": "Go",
+      "p": "2026-10-02T13:26:12Z",
+      "s": 8723,
+      "sz": 12698
+    }
+  ],
+  [
+    "farion1231/cc-switch",
+    {
+      "d": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, ",
+      "f": 9402,
+      "l": "MIT",
+      "lang": "Rust",
+      "p": "2026-10-02T17:45:32Z",
+      "s": 139553,
+      "sz": 80492
+    }
+  ],
+  [
+    "MiniMax-AI/minimax-code",
+    {
+      "d": "An open-source coding agent for your terminal, powered by MiniMax.",
+      "f": 246,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-02T12:28:20Z",
+      "s": 1952,
+      "sz": 29671
+    }
+  ],
+  [
+    "MiniMax-AI/cli",
+    {
+      "d": "Generate text, images, video, speech, and music by MiniMax.",
+      "f": 186,
+      "l": null,
+      "lang": "TypeScript",
+      "p": "2026-09-29T12:53:48Z",
+      "s": 2180,
+      "sz": 1004
+    }
+  ],
+  [
+    "jakevdp/PythonDataScienceHandbook",
+    {
+      "d": "Python Data Science Handbook: full text in Jupyter Notebooks",
+      "f": 19141,
+      "l": "MIT",
+      "lang": "Jupyter Notebook",
+      "p": "2024-06-26T19:17:33Z",
+      "s": 50076,
+      "sz": 43642
+    }
+  ],
+  [
+    "HarnessMD/munder-difflin",
+    {
+      "d": "an open-source alternative to the dots, bots and muses of the world, run an office of clau",
+      "f": 1118,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-02T16:21:56Z",
+      "s": 8314,
+      "sz": 222876
+    }
+  ],
+  [
+    "pbakaus/impeccable",
+    {
+      "d": "The design language that makes your AI harness better at design.",
+      "f": 4478,
+      "l": "Apache-2.0",
+      "lang": "JavaScript",
+      "p": "2026-10-02T22:44:52Z",
+      "s": 74279,
+      "sz": 379873
+    }
+  ],
+  [
+    "mvanhorn/last30days-skill",
+    {
+      "d": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and th",
+      "f": 5514,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-01T01:19:40Z",
+      "s": 63380,
+      "sz": 51788
+    }
+  ],
+  [
+    "mvanhorn/agentcookie",
+    {
+      "d": "Your agent runs on a Mac that isn't your daily driver. agentcookie keeps its sessions in s",
+      "f": 70,
+      "l": "MIT",
+      "lang": "Go",
+      "p": "2026-09-21T18:19:16Z",
+      "s": 844,
+      "sz": 1210
+    }
+  ],
+  [
+    "python/cpython",
+    {
+      "d": "The Python programming language",
+      "f": 37126,
+      "l": "NOASSERTION",
+      "lang": "Python",
+      "p": "2026-10-02T22:34:39Z",
+      "s": 77388,
+      "sz": 883893
+    }
+  ],
+  [
+    "n8n-io/n8n",
+    {
+      "d": "Fair-code workflow automation platform with native AI capabilities. Combine visual buildin",
+      "f": 60973,
+      "l": "NOASSERTION",
+      "lang": "TypeScript",
+      "p": "2026-10-02T22:21:58Z",
+      "s": 206518,
+      "sz": 660118
+    }
+  ],
+  [
+    "huggingface/transformers",
+    {
+      "d": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning model",
+      "f": 34741,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-10-02T21:03:18Z",
+      "s": 166905,
+      "sz": 525195
+    }
+  ],
+  [
+    "MervinPraison/PraisonAI",
+    {
+      "d": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autono",
+      "f": 1458,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T17:38:45Z",
+      "s": 9122,
+      "sz": 112261
+    }
+  ],
+  [
+    "colbymchenry/codegraph",
+    {
+      "d": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemi",
+      "f": 4682,
+      "l": "MIT",
+      "lang": "C",
+      "p": "2026-10-02T21:58:28Z",
+      "s": 72942,
+      "sz": 35105
+    }
+  ],
+  [
+    "hiyouga/LlamaFactory",
+    {
+      "d": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "f": 9220,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-09-28T09:10:59Z",
+      "s": 75280,
+      "sz": 14218
+    }
+  ],
+  [
+    "Prism-Shadow/penguin-harness",
+    {
+      "d": "🐧 Unified and Stable RSI Platform",
+      "f": 263,
+      "l": "Apache-2.0",
+      "lang": "TypeScript",
+      "p": "2026-10-02T22:42:12Z",
+      "s": 2437,
+      "sz": 48097
+    }
+  ],
+  [
+    "MemTensor/MemOS",
+    {
+      "d": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, an",
+      "f": 1065,
+      "l": "Apache-2.0",
+      "lang": "TypeScript",
+      "p": "2026-09-29T03:09:34Z",
+      "s": 11677,
+      "sz": 73949
+    }
+  ],
+  [
+    "vivekchand/clawmetry",
+    {
+      "d": "See your agent think. Zero-config observability & governance for 30 AI agent runtimes: Cla",
+      "f": 71,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T22:54:39Z",
+      "s": 423,
+      "sz": 20032796
+    }
+  ],
+  [
+    "cosmicstack-labs/mercury-agent-skills",
+    {
+      "d": "A curated registry of reusable Mercury Agent, Open Claw or Hermes Agent skills designed fo",
+      "f": 62,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-08-25T07:28:43Z",
+      "s": 472,
+      "sz": 2247
+    }
+  ],
+  [
+    "ogallotti/rtk-hermes",
+    {
+      "d": "RTK plugin for Hermes — rewrites shell commands for 60-90% LLM token savings",
+      "f": 20,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-05-04T13:22:41Z",
+      "s": 284,
+      "sz": 6753
+    }
+  ],
+  [
+    "junhoyeo/tokscale",
+    {
+      "d": "🛰️ Track token usage across AI coding agents from your terminal. 🏅 Global leaderboard with",
+      "f": 458,
+      "l": "MIT",
+      "lang": "Rust",
+      "p": "2026-09-29T20:33:45Z",
+      "s": 5605,
+      "sz": 98407
+    }
+  ],
+  [
+    "TGKDre/zero-cost-ai-agent",
+    {
+      "d": "Zero-cost AI agent setup using FreeLLMAPI + Hermes Agent — 80+ free models, 1B+ tokens/mon",
+      "f": 0,
+      "l": "MIT",
+      "lang": null,
+      "p": "2026-06-17T16:37:40Z",
+      "s": 1,
+      "sz": 5
+    }
+  ],
+  [
+    "ssap-pa/free-Smart-Routing-harness",
+    {
+      "d": "Token-zero coding harness for Hermes: Claude CLI builds, Codex CLI reviews, a deterministi",
+      "f": 0,
+      "l": "MIT",
+      "lang": "Shell",
+      "p": "2026-06-28T21:08:41Z",
+      "s": 1,
+      "sz": 53
+    }
+  ],
+  [
+    "jackccrawford/token-scout",
+    {
+      "d": "For OpenClaw, Hermes and more. Find free and low-cost inference (LLM models). Use them dir",
+      "f": 1,
+      "l": "MIT",
+      "lang": "Rust",
+      "p": "2026-04-06T04:11:45Z",
+      "s": 10,
+      "sz": 37
+    }
+  ],
+  [
+    "Hiutaky/token-saver",
+    {
+      "d": "Hermes Agent plugin: measure the money your local (free) AI saves you vs OpenRouter pricin",
+      "f": 0,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-09-05T13:54:55Z",
+      "s": 4,
+      "sz": 25
+    }
+  ],
+  [
+    "1437649480/miku-hermes-chat",
+    {
+      "d": "基于Hermes Agent的零 API 费用虚拟女友系统：通过开源 deepseek-free-api 和 kimi-free-api 实现完全免费多模态对话，支持微信端实时聊天",
+      "f": 5,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-05-20T07:37:49Z",
+      "s": 39,
+      "sz": 20475
+    }
+  ],
+  [
+    "decolua/9router",
+    {
+      "d": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity ",
+      "f": 5734,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-10-01T03:46:37Z",
+      "s": 30204,
+      "sz": 16540
+    }
+  ],
+  [
+    "tashfeenahmed/freellmapi",
+    {
+      "d": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind ",
+      "f": 4225,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-01T14:53:51Z",
+      "s": 30176,
+      "sz": 19332
+    }
+  ],
+  [
+    "FlashML-org/FreeToken",
+    {
+      "d": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locall",
+      "f": 1406,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-10-02T11:09:47Z",
+      "s": 14112,
+      "sz": 3420
+    }
+  ],
+  [
+    "OpenBMB/VoxCPM",
+    {
+      "d": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and",
+      "f": 4326,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-09-30T03:52:48Z",
+      "s": 38268,
+      "sz": 4129
+    }
+  ],
+  [
+    "Alishahryar1/free-claude-code",
+    {
+      "d": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ f",
+      "f": 9014,
+      "l": "NOASSERTION",
+      "lang": "Python",
+      "p": "2026-10-02T22:39:04Z",
+      "s": 56393,
+      "sz": 15112
+    }
+  ],
+  [
+    "GoSlowPoke168/hermes-openrouter-free-rotator",
+    {
+      "d": "Automatically loads the best free OpenRouter models into Hermes Agent. Ranks every :free m",
+      "f": 0,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-08-28T03:35:49Z",
+      "s": 12,
+      "sz": 222
+    }
+  ],
+  [
+    "cogwheel0/conduit",
+    {
+      "d": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes",
+      "f": 245,
+      "l": "GPL-3.0",
+      "lang": "Dart",
+      "p": "2026-10-02T13:27:01Z",
+      "s": 2233,
+      "sz": 289090
+    }
+  ],
+  [
+    "elkimek/honcho-self-hosted",
+    {
+      "d": "Self-host Honcho memory layer for Hermes Agent — OpenRouter + Venice, no code changes",
+      "f": 34,
+      "l": "GPL-3.0",
+      "lang": "Shell",
+      "p": "2026-04-09T04:51:34Z",
+      "s": 379,
+      "sz": 113
+    }
+  ],
+  [
+    "techjarves/Hermes-USB-Portable",
+    {
+      "d": "",
+      "f": 190,
+      "l": null,
+      "lang": "Shell",
+      "p": "2026-06-21T09:24:29Z",
+      "s": 532,
+      "sz": 69
+    }
+  ],
+  [
+    "crafter-station/petdex",
+    {
+      "d": "A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCo",
+      "f": 210,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-09-28T21:17:19Z",
+      "s": 4186,
+      "sz": 78286
+    }
+  ],
+  [
+    "p697/clawket",
+    {
+      "d": "Mobile Client for OpenClaw, Hermes, and More",
+      "f": 78,
+      "l": "AGPL-3.0",
+      "lang": "TypeScript",
+      "p": "2026-10-02T16:46:09Z",
+      "s": 345,
+      "sz": 21443
+    }
+  ],
+  [
+    "ruvnet/ruflo",
+    {
+      "d": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomou",
+      "f": 8761,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-02T22:50:41Z",
+      "s": 73731,
+      "sz": 581857
+    }
+  ],
+  [
+    "ksimback/hermes-ecosystem",
+    {
+      "d": "Hermes Atlas — the decision layer for Hermes Agent: install guidance, mode & skill picks, ",
+      "f": 114,
+      "l": null,
+      "lang": "HTML",
+      "p": "2026-10-02T22:27:15Z",
+      "s": 1299,
+      "sz": 978823
+    }
+  ],
+  [
+    "rlaope/oh-my-hermes",
+    {
+      "d": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system an",
+      "f": 238,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T09:23:20Z",
+      "s": 3068,
+      "sz": 140513
+    }
+  ],
+  [
+    "thedotmack/claude-mem",
+    {
+      "d": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does ",
+      "f": 8433,
+      "l": "Apache-2.0",
+      "lang": "TypeScript",
+      "p": "2026-10-02T20:44:24Z",
+      "s": 95194,
+      "sz": 515015
+    }
+  ],
+  [
+    "YeQing17-2026/OmniAgent",
+    {
+      "d": "An agent capable of self-evolving and dynamically hardening security",
+      "f": 386,
+      "l": "NOASSERTION",
+      "lang": "Python",
+      "p": "2026-07-27T07:54:11Z",
+      "s": 2570,
+      "sz": 16337
+    }
+  ],
+  [
+    "alchaincyf/hermes-agent-orange-book",
+    {
+      "d": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南",
+      "f": 496,
+      "l": "NOASSERTION",
+      "lang": "Python",
+      "p": "2026-08-23T14:21:45Z",
+      "s": 4965,
+      "sz": 40522
+    }
+  ],
+  [
+    "NousResearch/hermes-agent-self-evolution",
+    {
+      "d": "⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code usin",
+      "f": 649,
+      "l": null,
+      "lang": "Python",
+      "p": "2026-06-17T11:53:04Z",
+      "s": 5436,
+      "sz": 32
+    }
+  ],
+  [
+    "bongtrop/hbctool",
+    {
+      "d": "Hermes Bytecode Reverse Engineering Tool (Assemble/Disassemble Hermes Bytecode)",
+      "f": 100,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2023-12-10T21:12:57Z",
+      "s": 641,
+      "sz": 36562
+    }
+  ],
+  [
+    "iBotPeaches/Apktool",
+    {
+      "d": "A tool for reverse engineering Android apk files",
+      "f": 4027,
+      "l": "Apache-2.0",
+      "lang": "Java",
+      "p": "2026-09-28T10:39:51Z",
+      "s": 25719,
+      "sz": 361449
+    }
+  ],
+  [
+    "alphaSeclab/awesome-reverse-engineering",
+    {
+      "d": "Reverse Engineering Resources About All Platforms(Windows/Linux/macOS/Android/iOS/IoT) And",
+      "f": 906,
+      "l": null,
+      "lang": null,
+      "p": "2021-09-01T16:55:49Z",
+      "s": 5075,
+      "sz": 1314
+    }
+  ],
+  [
+    "uzairansaruzi/hermex",
+    {
+      "d": "Native iPhone app for your Hermes agent",
+      "f": 210,
+      "l": "MIT",
+      "lang": "Swift",
+      "p": "2026-10-02T22:46:23Z",
+      "s": 1436,
+      "sz": 22663
+    }
+  ],
+  [
+    "NousResearch/autonovel",
+    {
+      "d": "An autonomous novel writing pipeline, by Hermes Agent",
+      "f": 313,
+      "l": null,
+      "lang": "Python",
+      "p": "2026-03-20T16:17:11Z",
+      "s": 1600,
+      "sz": 821
+    }
+  ],
+  [
+    "abundantbeing/hermes-browser-extension",
+    {
+      "d": "Browser-native side panel for Hermes Agent — connect web context to your local Hermes runt",
+      "f": 155,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-09-29T13:57:00Z",
+      "s": 1593,
+      "sz": 49324
+    }
+  ],
+  [
+    "NVIDIA/NemoClaw",
+    {
+      "d": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA Op",
+      "f": 3125,
+      "l": "Apache-2.0",
+      "lang": "TypeScript",
+      "p": "2026-10-02T22:49:29Z",
+      "s": 22638,
+      "sz": 284277
+    }
+  ],
+  [
+    "outsourc-e/hermes-workspace",
+    {
+      "d": "Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.",
+      "f": 1049,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-09-29T23:49:31Z",
+      "s": 6679,
+      "sz": 109975
+    }
+  ],
+  [
+    "NousResearch/hermes-paperclip-adapter",
+    {
+      "d": "Paperclip adapter for Hermes Agent — run Hermes as a managed employee in a Paperclip compa",
+      "f": 390,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-04-04T05:44:23Z",
+      "s": 1938,
+      "sz": 50
+    }
+  ],
+  [
+    "nesquena/hermes-webui",
+    {
+      "d": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "f": 2668,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T12:39:00Z",
+      "s": 18732,
+      "sz": 218684
+    }
+  ],
+  [
+    "garrytan/gbrain",
+    {
+      "d": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "f": 4575,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-02T22:41:19Z",
+      "s": 30491,
+      "sz": 169212
+    }
+  ],
+  [
+    "philc/vimium",
+    {
+      "d": "The hacker's browser.",
+      "f": 2624,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2026-07-25T04:40:17Z",
+      "s": 27032,
+      "sz": 6827
+    }
+  ],
+  [
+    "twostraws/HackingWithSwift",
+    {
+      "d": "The project source code for Hacking with iOS.",
+      "f": 3228,
+      "l": "Unlicense",
+      "lang": "Swift",
+      "p": "2025-06-22T13:03:12Z",
+      "s": 6390,
+      "sz": 96904
+    }
+  ],
+  [
+    "ryanoasis/nerd-fonts",
+    {
+      "d": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Sour",
+      "f": 3960,
+      "l": "NOASSERTION",
+      "lang": "CSS",
+      "p": "2026-09-30T06:53:58Z",
+      "s": 64794,
+      "sz": 29350992
+    }
+  ],
+  [
+    "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+    {
+      "d": "本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。",
+      "f": 5833,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2025-01-01T19:14:38Z",
+      "s": 35831,
+      "sz": 380
+    }
+  ],
+  [
+    "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
+    {
+      "d": "aka \"Bayesian Methods for Hackers\": An introduction to Bayesian methods + probabilistic pr",
+      "f": 7912,
+      "l": "MIT",
+      "lang": "Jupyter Notebook",
+      "p": "2024-06-25T20:42:58Z",
+      "s": 28176,
+      "sz": 172065
+    }
+  ],
+  [
+    "mathiasbynens/dotfiles",
+    {
+      "d": ":wrench: .files, including ~/.macos — sensible hacker defaults for macOS",
+      "f": 8408,
+      "l": "MIT",
+      "lang": "Shell",
+      "p": "2024-08-05T19:06:13Z",
+      "s": 31484,
+      "sz": 850
+    }
+  ],
+  [
+    "Hack-with-Github/Awesome-Hacking",
+    {
+      "d": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "f": 10803,
+      "l": "CC0-1.0",
+      "lang": null,
+      "p": "2026-07-26T03:29:02Z",
+      "s": 121717,
+      "sz": 1461
+    }
+  ],
+  [
+    "trimstray/the-book-of-secret-knowledge",
+    {
+      "d": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web t",
+      "f": 14442,
+      "l": "MIT",
+      "lang": null,
+      "p": "2024-11-19T14:00:38Z",
+      "s": 247479,
+      "sz": 1748
+    }
+  ],
+  [
+    "atom/atom",
+    {
+      "d": ":atom: The hackable text editor",
+      "f": 17170,
+      "l": "MIT",
+      "lang": "JavaScript",
+      "p": "2023-01-03T10:49:48Z",
+      "s": 60715,
+      "sz": 330585
+    }
+  ],
+  [
+    "mitesh77/Best-Flutter-UI-Templates",
+    {
+      "d": "completely free for everyone. Its build-in Flutter Dart.",
+      "f": 4812,
+      "l": "NOASSERTION",
+      "lang": "Dart",
+      "p": "2025-12-16T10:59:44Z",
+      "s": 22835,
+      "sz": 208034
+    }
+  ],
+  [
+    "NaiboWang/EasySpider",
+    {
+      "d": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬",
+      "f": 5389,
+      "l": "AGPL-3.0",
+      "lang": "JavaScript",
+      "p": "2026-09-17T12:09:24Z",
+      "s": 44619,
+      "sz": 154369
+    }
+  ],
+  [
+    "enescingoz/awesome-n8n-templates",
+    {
+      "d": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Di",
+      "f": 6486,
+      "l": "NOASSERTION",
+      "lang": null,
+      "p": "2026-09-12T13:00:32Z",
+      "s": 25704,
+      "sz": 4639
+    }
+  ],
+  [
+    "MemPalace/mempalace",
+    {
+      "d": "The best-benchmarked open-source AI memory system. And it's free.",
+      "f": 7563,
+      "l": "MIT",
+      "lang": "Python",
+      "p": "2026-10-02T21:20:55Z",
+      "s": 59386,
+      "sz": 28541
+    }
+  ],
+  [
+    "router-for-me/CLIProxyAPI",
+    {
+      "d": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build, Muse Code, Davin as an OpenAI/Ge",
+      "f": 8157,
+      "l": "MIT",
+      "lang": "Go",
+      "p": "2026-10-02T20:21:33Z",
+      "s": 53895,
+      "sz": 40178
+    }
+  ],
+  [
+    "diegosouzapw/OmniRoute",
+    {
+      "d": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ mod",
+      "f": 10333,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-10-02T18:26:57Z",
+      "s": 72370,
+      "sz": 1192534
+    }
+  ],
+  [
+    "freqtrade/freqtrade",
+    {
+      "d": "Free, open source crypto trading bot",
+      "f": 11380,
+      "l": "GPL-3.0",
+      "lang": "Python",
+      "p": "2026-10-02T16:13:51Z",
+      "s": 54971,
+      "sz": 781176
+    }
+  ],
+  [
+    "xtekky/gpt4free",
+    {
+      "d": "The official gpt4free repository | various collection of powerful language models | opus 4",
+      "f": 13489,
+      "l": "GPL-3.0",
+      "lang": "Python",
+      "p": "2026-10-02T22:05:34Z",
+      "s": 66756,
+      "sz": 239982
+    }
+  ],
+  [
+    "awesome-selfhosted/awesome-selfhosted",
+    {
+      "d": "A list of Free Software network services and web applications which can be hosted on your ",
+      "f": 15146,
+      "l": "NOASSERTION",
+      "lang": null,
+      "p": "2026-10-02T16:22:23Z",
+      "s": 323429,
+      "sz": 17365
+    }
+  ],
+  [
+    "Shubhamsaboo/awesome-llm-apps",
+    {
+      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "f": 20641,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-09-30T20:31:22Z",
+      "s": 140556,
+      "sz": 221953
+    }
+  ],
+  [
+    "EbookFoundation/free-programming-books",
+    {
+      "d": ":books: Freely available programming books",
+      "f": 66876,
+      "l": "CC-BY-4.0",
+      "lang": "Python",
+      "p": "2026-10-02T19:35:16Z",
+      "s": 398331,
+      "sz": 22590
+    }
+  ],
+  [
+    "bmorelli25/Become-A-Full-Stack-Web-Developer",
+    {
+      "d": "Free resources for learning Full Stack Web Development",
+      "f": 2773,
+      "l": "MIT",
+      "lang": null,
+      "p": "2024-06-18T08:33:46Z",
+      "s": 18376,
+      "sz": 79
+    }
+  ],
+  [
+    "ethereum-boilerplate/ethereum-boilerplate",
+    {
+      "d": "The ultimate NextJS Ethereum Dapp Boilerplate which gives you maximum flexibility and spee",
+      "f": 2968,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2024-06-19T14:27:22Z",
+      "s": 4134,
+      "sz": 97781
+    }
+  ],
+  [
+    "topoteretes/cognee",
+    {
+      "d": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent lo",
+      "f": 3154,
+      "l": "Apache-2.0",
+      "lang": "Python",
+      "p": "2026-10-02T20:55:58Z",
+      "s": 31310,
+      "sz": 261929
+    }
+  ],
+  [
+    "DigitalPlatDev/FreeDomain",
+    {
+      "d": "Free domain registration and practical DNS learning resources for everyone.",
+      "f": 4438,
+      "l": "AGPL-3.0",
+      "lang": "Markdown",
+      "p": "2026-08-12T10:36:46Z",
+      "s": 202194,
+      "sz": 1144
+    }
+  ],
+  [
+    "GrapesJS/grapesjs",
+    {
+      "d": "Free and Open source Web Builder Framework. Next generation tool for building templates wi",
+      "f": 4649,
+      "l": "NOASSERTION",
+      "lang": "TypeScript",
+      "p": "2026-10-02T15:26:14Z",
+      "s": 26286,
+      "sz": 114031
+    }
+  ],
+  [
+    "oficcejo/alpha-arena-okx",
+    {
+      "d": "比特币BTC加密货币ai自动交易机器人，基于nof1:alphaarena项目，让ai模型deepseek或qwen3-max自动炒币的程序，支持欧易okx交易所。无需人工干预，请",
+      "f": 90,
+      "l": null,
+      "lang": "Python",
+      "p": "2026-07-27T03:16:46Z",
+      "s": 340,
+      "sz": 62
+    }
+  ],
+  [
+    "enarjord/passivbot",
+    {
+      "d": "Trading bot running on Bybit, Bitget, OKX, GateIO, Binance, Kucoin, WEEX and Hyperliquid",
+      "f": 678,
+      "l": "Unlicense",
+      "lang": "Python",
+      "p": "2026-10-02T18:44:27Z",
+      "s": 2116,
+      "sz": 77869
+    }
+  ],
+  [
+    "dex-original/okx-agent-trade-kit",
+    {
+      "d": "okx trading bot okx agent mcp cli cryptocurrency okx api automated trading typescript okx ",
+      "f": 2300,
+      "l": "MIT",
+      "lang": "TypeScript",
+      "p": "2026-06-01T21:48:44Z",
+      "s": 106,
+      "sz": 876
+    }
+  ],
+  [
+    "oficcejo/quant-okx",
+    {
+      "d": " OKX 交易所自动量化交易机器人，支持策略ai生成、策略回测、策略编辑、策略自动执行",
+      "f": 7,
+      "l": null,
+      "lang": "Python",
+      "p": "2025-11-30T05:20:53Z",
+      "s": 19,
+      "sz": 55
+    }
+  ],
+  [
+    "okx/onchainos-skills",
+    {
+      "d": "Skills for AI agents to integrate with the OKX OnchainOS API — Wallet, token discovery, ma",
+      "f": 76,
+      "l": null,
+      "lang": "Rust",
+      "p": "2026-09-28T02:53:42Z",
+      "s": 339,
+      "sz": 23109
+    }
+  ],
+  [
+    "okx/agent-skills",
+    {
+      "d": "Plug-and-play AI agent skills for OKX — letting any LLM agent trade, manage portfolios, qu",
+      "f": 28,
+      "l": "MIT",
+      "lang": "Shell",
+      "p": "2026-09-23T13:02:14Z",
+      "s": 184,
+      "sz": 936
+    }
+  ],
+  [
+    "LOWERTOP/Shadowrocket-First",
+    {
+      "d": "小火箭配色与配置",
+      "f": 343,
+      "l": null,
+      "lang": null,
+      "p": "2026-09-30T01:50:51Z",
+      "s": 5448,
+      "sz": 31264
+    }
+  ],
+  [
+    "JizhiXiang/Quant-Strategy",
+    {
+      "d": "qmt、okx、joinquant、ML、AI、Qlib Quant Strategy 量化策略",
+      "f": 65,
+      "l": null,
+      "lang": "Jupyter Notebook",
+      "p": "2025-11-12T08:00:12Z",
+      "s": 294,
+      "sz": 4509
+    }
+  ]
+]
