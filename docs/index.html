@@ -99,11 +99,11 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--bd);color:var
     <li><b>机器可读 JSON</b>，可直接接入你自己的工具链</li>
   </ul>
   <p id="price"><b>定价 ¥49</b>（一次买断，含后续更新）</p>
-  <a class="btn" id="buy" href="#">查看支付宝收款码</a>
+  <a class="btn" id="buy" href="#">查看收款码</a>
   <a class="btn sec" href="commercial-pack.json" download>先下载免费预览</a>
-  <div id="qrwrap" style="display:none;margin-top:22px;text-align:center">
-    <img id="qr" alt="支付宝收款码" style="max-width:250px;border-radius:14px;border:1px solid var(--bd);background:#fff;padding:10px">
-    <div id="qrhint" style="color:var(--dim);font-size:13.5px;margin-top:10px;line-height:1.7"></div>
+  <div id="qrwrap" style="display:none;margin-top:26px">
+    <div id="qrs" style="display:flex;gap:24px;flex-wrap:wrap;justify-content:center"></div>
+    <div id="qrhint" style="color:var(--dim);font-size:13.5px;margin-top:16px;line-height:1.8;text-align:center"></div>
   </div>
 </section>
 
@@ -155,26 +155,48 @@ render();
 </script>
 
 
+
 <script>
 fetch('pay.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(cfg=>{
   if(!cfg) return;
   const b=document.getElementById('buy'), p=document.getElementById('price');
-  const w=document.getElementById('qrwrap'), q=document.getElementById('qr'), h=document.getElementById('qrhint');
+  const w=document.getElementById('qrwrap'), box=document.getElementById('qrs'), h=document.getElementById('qrhint');
   if(cfg.price&&p) p.innerHTML='<b>定价 '+cfg.price+'</b>'+(cfg.price_note?('（'+cfg.price_note+'）'):'');
   if(cfg.buy_label&&b) b.textContent=cfg.buy_label;
-  if(cfg.qr_image&&w&&q){
+
+  const list=cfg.qr_images||(cfg.qr_image?[{src:cfg.qr_image,label:''}]:[]);
+  if(!list.length){ if(b&&cfg.buy_url) b.href=cfg.buy_url; return; }
+
+  let loaded=0;
+  list.forEach((it,idx)=>{
     const probe=new Image();
-    probe.onload=()=>{ q.src=cfg.qr_image; w.style.display='block';
-      const parts=[];
-      if(cfg.pay_title) parts.push('<b>'+cfg.pay_title+'</b>');
-      if(cfg.delivery_note) parts.push(cfg.delivery_note);
-      if(cfg.contact_email) parts.push('交付邮箱：<a style="color:var(--ac)" href="mailto:'+cfg.contact_email+'">'+cfg.contact_email+'</a>');
-      if(h) h.innerHTML=parts.join('<br>');
-      if(b){ b.removeAttribute('href'); b.style.cursor='default';
-             b.onclick=()=>w.scrollIntoView({behavior:'smooth',block:'center'}); } };
-    probe.onerror=()=>{ if(b&&cfg.contact_email){ b.href='mailto:'+cfg.contact_email; b.textContent='邮件联系获取授权包'; } };
-    probe.src=cfg.qr_image;
-  } else if(cfg.buy_url&&b){ b.href=cfg.buy_url; }
+    probe.onload=()=>{
+      loaded++;
+      const cell=document.createElement('div');
+      cell.style.cssText='text-align:center';
+      const img=document.createElement('img');
+      img.src=it.src; img.alt=it.alt||it.label||'收款码';
+      img.style.cssText='max-width:250px;width:100%;border-radius:14px;border:1px solid var(--bd);background:#fff;padding:8px';
+      let node=img;
+      if(it.link){ const a=document.createElement('a'); a.href=it.link; a.target='_blank'; a.rel='noopener'; a.appendChild(img); node=a; }
+      cell.appendChild(node);
+      if(it.label){ const d=document.createElement('div'); d.textContent=it.label;
+        d.style.cssText='color:var(--dim);font-size:13.5px;margin-top:8px'; cell.appendChild(d); }
+      box.appendChild(cell);
+      if(loaded===1){
+        w.style.display='block';
+        const parts=[];
+        if(cfg.pay_title) parts.push('<b>'+cfg.pay_title+'</b>');
+        if(cfg.delivery_note) parts.push(cfg.delivery_note);
+        if(cfg.contact_email) parts.push('交付邮箱：<a style="color:var(--ac)" href="mailto:'+cfg.contact_email+'">'+cfg.contact_email+'</a>');
+        if(h) h.innerHTML=parts.join('<br>');
+        if(b){ b.removeAttribute('href'); b.style.cursor='default';
+               b.onclick=()=>w.scrollIntoView({behavior:'smooth',block:'center'}); }
+      }
+    };
+    probe.onerror=()=>{ if(idx===0&&b&&cfg.contact_email){ b.href='mailto:'+cfg.contact_email; b.textContent='邮件联系获取授权包'; } };
+    probe.src=it.src;
+  });
 }).catch(()=>{});
 </script>
 </body></html>

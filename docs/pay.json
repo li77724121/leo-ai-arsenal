@@ -1,11 +1,23 @@
 {
  "price": "¥49",
  "price_note": "一次买断，含后续更新",
- "buy_label": "查看支付宝收款码",
- "pay_title": "支付宝扫码支付 ¥49",
- "qr_image": "img/alipay-qr.png",
+ "buy_label": "查看收款码",
+ "pay_title": "扫码支付 ¥49",
+ "qr_images": [
+  {
+   "src": "img/wechat-qr.png",
+   "label": "微信支付",
+   "alt": "微信收款码"
+  },
+  {
+   "src": "img/alipay-qr.png",
+   "label": "支付宝（手机点图可直接打开）",
+   "alt": "支付宝收款码",
+   "link": "https://qr.alipay.com/tsx19644g4uetnuvlirqi32"
+  }
+ ],
  "contact_email": "li77724121@outlook.com",
  "delivery_note": "付款后请把支付截图发到下方邮箱，我 24 小时内发你授权包",
  "buy_url": "",
- "_说明": "支付宝收款码图片放 docs/img/alipay-qr.png；若改链接收款，填 buy_url 并清空 qr_image"
+ "_说明": "收款码图片在 docs/img/。改价改 price；换码换图片文件即可，无需改代码"
 }
