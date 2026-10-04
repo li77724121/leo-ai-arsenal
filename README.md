@@ -1,6 +1,6 @@
 # 🧰 Leo AI Arsenal — 精选开源 AI 项目库
 
-> **LEO AI COMPANY / Hermes 精选工具箱**（公开协作版）
+> **Hermes 精选工具箱**（公开协作版）
 > 从创始人收藏中筛选出的**热门、免费、对 Hermes/AI Agent 有实际价值**的开源项目，统一同步保存于此。
 > **欢迎同行者 fork、提 PR、共同完善优化** 🙏
 
@@ -73,7 +73,7 @@
 - License 标注：MIT/Apache 可商用；AGPL 自托管可用；GPL/无 license 仅参考
 
 ---
-*Made with ❤️ for LEO AI COMPANY · 开源协作，共同进化*
+*Made with ❤️ 开源协作，共同进化*
 
 ---
 
